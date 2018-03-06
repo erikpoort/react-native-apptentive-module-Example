@@ -1,0 +1,3 @@
+rootProject.name = 'RNApptentiveExample'
+
+include ':app'
