@@ -1,0 +1,5 @@
+rootProject.name = 'RNApptentiveExample'
+include ':react-native-apptentive-module'
+project(':react-native-apptentive-module').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-apptentive-module/android')
+
+include ':app'
