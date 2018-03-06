@@ -13,6 +13,7 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* RNApptentiveExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNApptentiveExampleTests.m */; };
+		10119F95748E9FA3DB4332CE /* Pods_RNApptentiveExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B3D96DF4CE52AED4C18AE9 /* Pods_RNApptentiveExample.framework */; };
 		11BB1AF7D6CFA75B4514037A /* libPods-RNApptentiveExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAA1268B0BA020D29D5061E /* libPods-RNApptentiveExample-tvOS.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -35,13 +36,12 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* RNApptentiveExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNApptentiveExampleTests.m */; };
+		4ABDFC05662DC6920E53F051 /* Pods_RNApptentiveExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F33D3EBB7E3CAE259F782D7 /* Pods_RNApptentiveExampleTests.framework */; };
 		57A87C870E99A90F79917E68 /* libPods-RNApptentiveExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5273BBEF49C2A60EF1875D33 /* libPods-RNApptentiveExample-tvOSTests.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		719C1557DC3F45E588E4A801 /* libRNApptentiveModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21714A13D60A4F3EBBF1FE47 /* libRNApptentiveModule.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		B37F5B890B8C005CDE81CF37 /* libPods-RNApptentiveExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9FF1C89E2C2B59E32BAFF3 /* libPods-RNApptentiveExample.a */; };
-		FC9609CB783C18BCF3632164 /* libPods-RNApptentiveExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF019F1355BE0D43297EB68 /* libPods-RNApptentiveExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -338,6 +338,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNApptentiveExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNApptentiveExampleTests.m; sourceTree = "<group>"; };
 		020ABB1A2EC7E3271BAF2151 /* Pods-RNApptentiveExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNApptentiveExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNApptentiveExampleTests/Pods-RNApptentiveExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		03B3D96DF4CE52AED4C18AE9 /* Pods_RNApptentiveExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNApptentiveExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F1CEF4FA71AD66A5DDB622 /* Pods-RNApptentiveExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNApptentiveExample-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNApptentiveExample-tvOS/Pods-RNApptentiveExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
@@ -359,15 +360,14 @@
 		523100B29A1112000F41D16C /* Pods-RNApptentiveExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNApptentiveExample-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNApptentiveExample-tvOSTests/Pods-RNApptentiveExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5273BBEF49C2A60EF1875D33 /* libPods-RNApptentiveExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNApptentiveExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		5F33D3EBB7E3CAE259F782D7 /* Pods_RNApptentiveExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNApptentiveExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ABF661A690154C2A60B119F1 /* Pods-RNApptentiveExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNApptentiveExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNApptentiveExampleTests/Pods-RNApptentiveExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC6A4E453BDB9E8374D79553 /* Pods-RNApptentiveExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNApptentiveExample-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNApptentiveExample-tvOSTests/Pods-RNApptentiveExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B463C023161C494D86AF0A70 /* RNApptentiveModule.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNApptentiveModule.xcodeproj; path = "../node_modules/react-native-apptentive-module/ios/RNApptentiveModule.xcodeproj"; sourceTree = "<group>"; };
-		BFF019F1355BE0D43297EB68 /* libPods-RNApptentiveExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNApptentiveExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59A38A8A560935DBB720363 /* Pods-RNApptentiveExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNApptentiveExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNApptentiveExample/Pods-RNApptentiveExample.debug.xcconfig"; sourceTree = "<group>"; };
-		DF9FF1C89E2C2B59E32BAFF3 /* libPods-RNApptentiveExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNApptentiveExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -376,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				FC9609CB783C18BCF3632164 /* libPods-RNApptentiveExampleTests.a in Frameworks */,
+				4ABDFC05662DC6920E53F051 /* Pods_RNApptentiveExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +398,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				719C1557DC3F45E588E4A801 /* libRNApptentiveModule.a in Frameworks */,
-				B37F5B890B8C005CDE81CF37 /* libPods-RNApptentiveExample.a in Frameworks */,
+				10119F95748E9FA3DB4332CE /* Pods_RNApptentiveExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,10 +565,10 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				DF9FF1C89E2C2B59E32BAFF3 /* libPods-RNApptentiveExample.a */,
 				3DAA1268B0BA020D29D5061E /* libPods-RNApptentiveExample-tvOS.a */,
 				5273BBEF49C2A60EF1875D33 /* libPods-RNApptentiveExample-tvOSTests.a */,
-				BFF019F1355BE0D43297EB68 /* libPods-RNApptentiveExampleTests.a */,
+				03B3D96DF4CE52AED4C18AE9 /* Pods_RNApptentiveExample.framework */,
+				5F33D3EBB7E3CAE259F782D7 /* Pods_RNApptentiveExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1312,9 +1312,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RNApptentiveExample/Pods-RNApptentiveExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/apptentive-ios/Apptentive.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apptentive.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
