@@ -7,16 +7,35 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
+  Platform,
   Text,
   View,
   Button
 } from 'react-native';
+import Apptentive from 'react-native-apptentive-module';
+
+const settings = Platform.select({
+  android: {
+    appKey: 'YOUR_APPTENTIVE_APP_KEY',
+    appSignature: 'YOUR_APPTENTIVE_APP_SIGNATURE',
+  },
+  ios: {
+    appKey: 'YOUR_APPTENTIVE_APP_KEY',
+    appSignature: 'YOUR_APPTENTIVE_APP_SIGNATURE',
+  }
+});
 
 type Props = {};
 export default class App extends Component<Props> {
 
-  showMessageCenter = () => {
+  componentDidMount() {
+	  Apptentive.register(settings.appKey, settings.appSignature);
+  }
 
+  showMessageCenter = () => {
+	  Apptentive.presentMessageCenter().catch(error => {
+	    alert(error)
+    });
   };
 
   render() {
